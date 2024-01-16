@@ -16,6 +16,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if(inputValue === initvalue){
                 alert('You WON!, You are lucky');
             }
+            if(inputValue !== initvalue){
+                alert('Sorry!, Try again next time');
+            }
         } else {
             alert("Enter correct input only 1-10 are allowed");
         }
